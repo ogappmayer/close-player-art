@@ -1,30 +1,34 @@
 {
-    "name": "close-player-art",
-    "title": "Close Player Art",
-    "description": "Adds a configurable hot key (Default ` - backtick) for the GM to close open image popouts on player screens",
-    "authors": [
+   "title": "Close Player Art",
+   "description": "Adds a configurable hot key (Default ` - backtick) for the GM to close open image popouts on player screens",
+   "authors": [
       {
-        "name": "Glen Simon",
-        "email": "glen.a.simon@gmail.com",
-        "url": "https://github.com/gsimon2"
+         "name": "Glen Simon",
+         "email": "glen.a.simon@gmail.com",
+         "url": "https://github.com/gsimon2",
+         "flags": {}
       }
-    ],
-    "version": "1.1.1",
-    "minimumCoreVersion": "0.7.0",
-    "compatibleCoreVersion": "0.7.9",
-    "socket": "true",
-    "esmodules": ["scripts/main.js"],
-    "languages": [
+   ],
+   "url": "https://github.com/gsimon2/close-player-art",
+   "readme": "https://raw.githubusercontent.com/gsimon2/close-player-art/main/README.md",
+   "bugs": "https://github.com/gsimon2/close-player-art/issues",
+   "changelog": "https://github.com/gsimon2/close-player-art/releases",
+   "version": "1.1.2",
+   "esmodules": ["scripts/main.js"],
+   "languages": [
       {
-          "lang": "en",
-          "name": "English",
-          "path": "lang/en.json"
+         "lang": "en",
+         "name": "English",
+         "path": "lang/en.json",
+         "flags": {}
       }
-    ],
-    "url": "https://github.com/gsimon2/close-player-art",
-    "bugs": "https://github.com/gsimon2/close-player-art/issues",
-    "changelog": "https://github.com/gsimon2/close-player-art/releases",
-    "download": "https://github.com/gsimon2/close-player-art/releases/download/1.1.1/module.zip",
-    "manifest": "https://github.com/gsimon2/close-player-art/releases//download/1.1.1/module.json",
-    "readme": "https://raw.githubusercontent.com/gsimon2/close-player-art/main/README.md"
-  }
+   ],
+   "socket": true,
+   "manifest": "https://github.com/gsimon2/close-player-art/releases//download/1.1.2/module.json",
+   "download": "https://github.com/gsimon2/close-player-art/releases/download/1.1.2/module.zip",
+   "id": "close-player-art",
+   "compatibility": {
+      "minimum": "10.0",
+      "verified": "10.286"
+   }
+}
